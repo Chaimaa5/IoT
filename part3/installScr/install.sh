@@ -25,5 +25,4 @@ VERSION=$(curl -L -s https://raw.githubusercontent.com/argoproj/argo-cd/stable/V
 #creating a namespace for argocd and equipping it with argocd
 echo "Beginning Setup"
 ../deploymentScr/Deploy.sh
-kubectl wait --for=condition=ready pod -l app.kubernetes.io/name=argocd-server -n argocd --timeout=120s
 kubectl port-forward svc/argocd-server -n argocd 8082:443 &
