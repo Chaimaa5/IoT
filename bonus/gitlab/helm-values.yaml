@@ -1,0 +1,14 @@
+gitlab:
+  gitlab-runner:
+    install: false
+
+global:
+  hosts:
+    domain: localtest.me
+  ingress:
+    configureCertmanager: false
+    class: nginx
+  certmanager:
+    install: false
+  omniAuth:
+    enabled: false

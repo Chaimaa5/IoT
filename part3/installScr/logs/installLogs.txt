@@ -1,0 +1,159 @@
+Hit:1 https://pacInstall finished
+om/repos/code stable InRelease
+Get:2 https://download.docker.com/linux/debian bookworm InRelease [43.3 kB]
+Hit:3 http://deb.debian.org/debian bookworm InRelease
+Hit:4 http://security.debian.org/debian-security bookworm-security InRelease
+Hit:5 http://deb.debian.org/debian bookworm-updates InRelease
+Err:2 https://download.docker.com/linux/debian bookworm InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apt-transport-https is already the newest version (2.6.1).
+ca-certificates is already the newest version (20230311).
+curl is already the newest version (7.88.1-10+deb12u8).
+gnupg is already the newest version (2.2.40-1.1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Install starting
+Hit:1 http://security.debian.org/debian-security bookworm-security InRelease
+Hit:2 http://deb.debian.org/debian bookworm InRelease
+Hit:3 http://deb.debian.org/debian bookworm-updates InRelease
+Get:4 https://download.docker.com/linux/debian bookworm InRelease [43.3 kB]
+Err:4 https://download.docker.com/linux/debian bookworm InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8
+Hit:5 https://packages.microsoft.com/repos/code stable InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+docker.io is already the newest version (20.10.24+dfsg1-1+deb12u1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+● docker.service - Docker Application Container Engine
+     Loaded: loaded (/lib/systemd/system/docker.service; enabled; preset: enabled)
+     Active: active (running) since Wed 2025-03-05 22:16:43 +00; 2h 6min ago
+TriggeredBy: ● docker.socket
+       Docs: https://docs.docker.com
+   Main PID: 10652 (dockerd)
+      Tasks: 13
+     Memory: 39.0M
+        CPU: 483ms
+     CGroup: /system.slice/docker.service
+             └─10652 /usr/sbin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  cgroupfs-mount criu libintl-perl libintl-xs-perl libmodule-find-perl libnet1
+  libproc-processtable-perl libsort-naturally-perl libterm-readkey-perl
+  needrestart python3-protobuf tini
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  containerd docker.io runc
+0 upgraded, 0 newly installed, 3 to remove and 0 not upgraded.
+After this operation, 261 MB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 179277 files and directories currently installed.)
+Removing docker.io (20.10.24+dfsg1-1+deb12u1) ...
+'/usr/share/docker.io/contrib/nuke-graph-directory.sh' -> '/var/lib/docker/nuke-graph-directory.sh'
+Removing containerd (1.6.20~ds1-1+b1) ...
+Removing runc (1.1.5+ds1-1+deb12u1) ...
+Processing triggers for man-db (2.11.2-2) ...
+Hit:1 http://security.debian.org/debian-security bookworm-security InRelease
+Hit:2 http://deb.debian.org/debian bookworm InRelease
+Hit:3 http://deb.debian.org/debian bookworm-updates InRelease
+Hit:4 https://packages.microsoft.com/repos/code stable InRelease
+Get:5 https://download.docker.com/linux/debian bookworm InRelease [43.3 kB]
+Err:5 https://download.docker.com/linux/debian bookworm InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apt-transport-https is already the newest version (2.6.1).
+ca-certificates is already the newest version (20230311).
+curl is already the newest version (7.88.1-10+deb12u8).
+gnupg is already the newest version (2.2.40-1.1).
+The following packages were automatically installed and are no longer required:
+  cgroupfs-mount criu libintl-perl libintl-xs-perl libmodule-find-perl libnet1
+  libproc-processtable-perl libsort-naturally-perl libterm-readkey-perl
+  needrestart python3-protobuf tini
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Install starting
+Hit:1 http://deb.debian.org/debian bookworm InRelease
+Hit:2 http://security.debian.org/debian-security bookworm-security InRelease
+Hit:3 https://packages.microsoft.com/repos/code stable InRelease
+Hit:4 http://deb.debian.org/debian bookworm-updates InRelease
+Get:5 https://download.docker.com/linux/debian bookworm InRelease [43.3 kB]
+Err:5 https://download.docker.com/linux/debian bookworm InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  containerd runc
+Suggested packages:
+  containernetworking-plugins docker-doc aufs-tools btrfs-progs debootstrap
+  rinse rootlesskit xfsprogs zfs-fuse | zfsutils-linux
+The following NEW packages will be installed:
+  containerd docker.io runc
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 36.2 MB/64.9 MB of archives.
+After this operation, 261 MB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bookworm/main amd64 docker.io amd64 20.10.24+dfsg1-1+deb12u1 [36.2 MB]
+Fetched 36.2 MB in 1s (59.0 MB/s)
+Selecting previously unselected package runc.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 178999 files and directories currently installed.)
+Preparing to unpack .../runc_1.1.5+ds1-1+deb12u1_amd64.deb ...
+Unpacking runc (1.1.5+ds1-1+deb12u1) ...
+Selecting previously unselected package containerd.
+Preparing to unpack .../containerd_1.6.20~ds1-1+b1_amd64.deb ...
+Unpacking containerd (1.6.20~ds1-1+b1) ...
+Selecting previously unselected package docker.io.
+Preparing to unpack .../docker.io_20.10.24+dfsg1-1+deb12u1_amd64.deb ...
+Unpacking docker.io (20.10.24+dfsg1-1+deb12u1) ...
+Setting up runc (1.1.5+ds1-1+deb12u1) ...
+Setting up containerd (1.6.20~ds1-1+b1) ...
+Setting up docker.io (20.10.24+dfsg1-1+deb12u1) ...
+Processing triggers for man-db (2.11.2-2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'docker' is not installed, so not removed
+The following packages were automatically installed and are no longer required:
+  cgroupfs-mount criu libintl-perl libintl-xs-perl libmodule-find-perl libnet1
+  libproc-processtable-perl libsort-naturally-perl libterm-readkey-perl
+  needrestart python3-protobuf tini
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  containerd docker.io runc
+0 upgraded, 0 newly installed, 3 to remove and 0 not upgraded.
+After this operation, 261 MB disk space will be freed.
+Do you want to continue? [Y/n] 
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'docker' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  cgroupfs-mount containerd criu libintl-perl libintl-xs-perl
+  libmodule-find-perl libnet1 libproc-processtable-perl libsort-naturally-perl
+  libterm-readkey-perl needrestart python3-protobuf runc tini
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  docker.io
+0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
+After this operation, 151 MB disk space will be freed.
+Do you want to continue? [Y/n] 
+install.sh
+logs
+install.sh
+logs
+install.sh
+logs
+Install finished
+Install finished

@@ -1,0 +1,6 @@
+step 1
+
+create namespace
+install gitlab and helm
+setup and  launch(ingress and stuff)
+forward argocd
